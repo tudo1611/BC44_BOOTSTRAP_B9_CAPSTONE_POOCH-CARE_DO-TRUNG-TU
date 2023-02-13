@@ -1,0 +1,23 @@
+:root{
+    --primary-color:#189A46;
+    --secondary: #f53626;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header  */
+.navbar .navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
