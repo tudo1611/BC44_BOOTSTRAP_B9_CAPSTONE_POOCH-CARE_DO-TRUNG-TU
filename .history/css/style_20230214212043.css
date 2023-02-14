@@ -805,7 +805,7 @@ footer .footer__content ul strong {
 footer .footer__content .social-icons i {
   margin-right: 15px;
   color: #6c757d;
-  transition: all 0.5s;
+  transition: all .5s;
 }
 
 footer .footer__copyright {
@@ -898,10 +898,10 @@ button:focus {
   background-color: #222;
 }
 .dark#myBody .dropdown-menu::before,
-.dark#myBody .dropdown-menu {
+.dark#myBody .dropdown-menu{
   border: 1px solid #333;
 }
-.dark#myBody .dropdown-menu::before {
+.dark#myBody .dropdown-menu::before{
   border-bottom: transparent;
   border-right: transparent;
 }
@@ -938,8 +938,10 @@ button:focus {
 .dark#myBody .dropdown-item:hover {
   color: var(--primary-color);
 }
-.dark#myBody footer .footer__content ul li a,
-.dark#myBody footer .footer__content ul li p,
-.dark#myBody footer .footer__content ul strong {
+.dark#myBody footer .footer__content ul li a,.dark#myBody footer .footer__content ul li p,.dark#myBody footer .footer__content ul strong {
   color: #afafaf;
 }
+.dark#myBody footer .footer__content ul strong{
+
+}
+
