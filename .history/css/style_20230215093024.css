@@ -792,9 +792,6 @@ footer .footer__content ul li p {
   line-height: 28px;
   color: #6c757d;
 }
-footer .footer__content ul li a:hover,footer .footer__content .social-icons i:hover{
-  color: #fff;
-}
 
 footer .footer__content ul strong {
   font-weight: bolder;
@@ -1041,6 +1038,8 @@ button:focus {
     font-size: 32px;
     line-height: 38px;
   }
+ 
+  
 }
 @media screen and (max-width:568px) {
   .pricing .pricing__content{

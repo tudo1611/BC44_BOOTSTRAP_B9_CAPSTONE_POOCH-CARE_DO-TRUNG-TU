@@ -745,6 +745,12 @@ header {
 .update .subcriber {
   max-width: 650px;
 }
+
+/* .update .subcriber-form {
+  display: flex;
+  justify-content: space-between;
+} */
+
 .update .subcriber-form input {
   font-size: 16px;
   color: var(--title-color);
@@ -791,9 +797,6 @@ footer .footer__content ul li p {
   font-size: 16px;
   line-height: 28px;
   color: #6c757d;
-}
-footer .footer__content ul li a:hover,footer .footer__content .social-icons i:hover{
-  color: #fff;
 }
 
 footer .footer__content ul strong {
@@ -1030,17 +1033,14 @@ button:focus {
   #owl-demo1 .owl-dots{
     display: none;
   }
-   .update .subcriber-form .btn{
-    display: block;
-    width: 100%;
-    margin-top: 16px;
-  }
+  
 }
 @media screen and (max-width:600px) {
   .title{
     font-size: 32px;
     line-height: 38px;
   }
+  
 }
 @media screen and (max-width:568px) {
   .pricing .pricing__content{
