@@ -854,13 +854,6 @@ button:focus {
 }
 
 /* light theme  */
-#switchButton .fa-sun {
-  display: none;
-}
-#switchButton .fa-moon {
-  display: block;
-}
-
 #myBody {
   background-color: white;
 }
@@ -869,8 +862,26 @@ button:focus {
   background-color: white;
 }
 
+#switchButton .fa-sun {
+  display: none;
+}
+
+#switchButton .fa-moon {
+  display: block;
+}
 
 /* dark theme  */
+#navbarNavDropdown > .btn {
+  font-size: 30px;
+  outline: none;
+  border: 1px solid transparent;
+}
+#navbarNavDropdown > .btn:focus {
+  box-shadow: none;
+}
+.dark #switchButton {
+  background-color: #151515;
+}
 
 .dark #switchButton .fa-sun {
   display: block;
@@ -880,21 +891,6 @@ button:focus {
 .dark #switchButton .fa-moon {
   display: none;
 }
-#navbarNavDropdown > .btn {
-  font-size: 30px;
-  outline: none;
-  border: 1px solid transparent;
-}
-.mobile-position i{
-  font-size: 28px;
-}
-.mobile-position:focus {
-  box-shadow: none;
-}
-.dark #switchButton {
-  background-color: transparent;
-}
-
 .dark#myBody .testimonials,
 .dark#myBody .pricing,
 .dark#myBody .services .cont-4 i,
@@ -972,24 +968,13 @@ button:focus {
   .navbar-toggler-icon.fa{
     color:#fff;
     line-height: 34px;
-    background-color: var(--primary-color);
-  }
-  .icon-close{
-    display: none;
-  }
-  .mobile-position{
-    position: absolute;
-    top: 10px;
-    right: 60px;
+    background-color: var();
   }
 
 
   #navbarNavDropdown .navbar-nav {
     background-color: #fff;
     text-align: center;
-  }
-  .dark#myBody #navbarNavDropdown .navbar-nav{
-    background-color:#151515 ;
   }
   #navbarNavDropdown .dropdown-menu {
     background-color: #fff;
@@ -1007,38 +992,23 @@ button:focus {
     content: "";
     display: none;
   }
-  .theme-position{
-    position: fixed;
-    top: 10px;
-    right:60px;
-  }
-  .nav__input{
-    display: none;
+  .mobile-position {
+    position: absolute;
+    right: 60px;
+    top: 13px;
   }
   .navbar-toggler-icon.fa {
-    position: absolute;
-    right: 30px;
-    top: 13px;
     line-height: 1.2em;
     color: #fff;
     line-height: 34px;
     background-color: var(--primary-color);
     border-radius: 5px;
   }
-   .nav__input:checked ~ .icon-close{
-    display: block;
-  }
   /* carousel  */
   .carousel .banner-info-bg h5 {
     font-size: 50px;
     line-height: 55px;
   }
- 
-
-
-
-
-
 }
 @media screen and (max-width:800px) {
   .pricing .pricing__content{

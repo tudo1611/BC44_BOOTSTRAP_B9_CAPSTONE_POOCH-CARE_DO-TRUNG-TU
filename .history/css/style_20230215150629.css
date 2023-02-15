@@ -977,20 +977,13 @@ button:focus {
   .icon-close{
     display: none;
   }
-  .mobile-position{
-    position: absolute;
-    top: 10px;
-    right: 60px;
-  }
 
 
   #navbarNavDropdown .navbar-nav {
     background-color: #fff;
     text-align: center;
   }
-  .dark#myBody #navbarNavDropdown .navbar-nav{
-    background-color:#151515 ;
-  }
+  #navbarNavDropdown .navbar-nav
   #navbarNavDropdown .dropdown-menu {
     background-color: #fff;
     border-color: #fff;
